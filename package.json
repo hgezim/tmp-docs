@@ -11,8 +11,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "clean": "git clean -xfd .cache public/",
-    "serve": "yarn run clean && yarn run build && gatsby serve",
-    "deploy": "yarn run build -- --prefix-paths && gh-pages -d public"
+    "serve": "yarn run clean && yarn run build --prefix-paths && gatsby serve"
   },
   "dependencies": {
     "autoprefixer": "^7.1.2",
