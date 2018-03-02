@@ -8,10 +8,15 @@ import Image from 'grommet/components/Image';
 import Menu from 'grommet/components/Menu';
 import Anchor from 'grommet/components/Anchor';
 import Heading from 'grommet/components/Heading';
+import Link from "gatsby-link";
 
 export class Topics extends React.PureComponent {
   render() {
-    let topics = this.props.topics.map((topic) => <li><a href={topic.slug}>{topic.title}</a></li>);
+    let topics = this.props.topics.map((topic) => <li>
+      <Link
+      to={topic.slug}
+      innerRef={(el) => { this.myLink = el }}
+    >{topic.title}</Link></li>);
     return <ul>{topics}</ul>;
   }
 }
@@ -23,7 +28,6 @@ export default class Index extends React.Component {
 
   render() {
     let chapters = this.props.data.allMarkdownRemark.edges.reduce((acc, current) => {
-      debugger;
       let cat = current.node.frontmatter.category;
       let found = acc.find(x => x.category === cat);
       if (found) {

@@ -31,7 +31,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
       `).then(result => {
           result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-            console.log("note fields:", node.fields);
               createPage({
                   path: node.fields.slug,
                   component: path.resolve(`./src/templates/lesson.js`),

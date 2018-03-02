@@ -2,10 +2,11 @@ const autoprefixer = require('autoprefixer')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gromsby Demo',
+    title: 'Zip Recipes Knowledge Base',
   },
-  pathPrefix: '/gatsby-starter-grommet',
+  pathPrefix: '/docs',
   plugins: [
+    `gatsby-link`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
