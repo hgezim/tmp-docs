@@ -1,7 +1,7 @@
 ---
 title: Recipe text shows up as bold and very large
 category: Troubleshooting
-chapter: 3
+chapter: 4
 lesson: 1
 ---
 

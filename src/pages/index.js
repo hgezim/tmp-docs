@@ -12,7 +12,8 @@ import Link from "gatsby-link";
 
 export class Topics extends React.PureComponent {
   render() {
-    let topics = this.props.topics.map((topic) => <li>
+    let topics = this.props.topics.map((topic) =>
+    <li key={topic.slug}>
       <Link
       to={topic.slug}
       innerRef={(el) => { this.myLink = el }}
@@ -41,14 +42,18 @@ export default class Index extends React.Component {
     }, []);
 
     let chs =
-      chapters.map((ch) => 
-        <Box
+      chapters.map((ch) => {
+        console.log(`key: ${ch.slug}`);
+
+        return <Box
+        key={ch.category}
         pad='medium'
         margin='small'
         colorIndex='light-2'>
         {ch.category}
         <Topics topics={ch.lessons} />
-      </Box>    
+      </Box>  
+      }  
       );
 
     return (

@@ -1,7 +1,7 @@
 ---
 title: Contributing
 category: Developers
-chapter: 4
+chapter: 5
 lesson: 1
 ---
 
