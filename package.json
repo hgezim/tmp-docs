@@ -11,14 +11,18 @@
     "develop": "gatsby develop",
     "build": "yarn run clean && gatsby build --prefix-paths",
     "clean": "git clean -xfd .cache public/",
-    "serve": "yarn run clean && yarn run build --prefix-paths && gatsby serve"
+    "serve": "yarn run clean && yarn run build --prefix-paths && gatsby serve",
+    "deploy": "scp -r public/* ubuntu@ziprecipes.net:/home/ubuntu/zrdn/docs/"
   },
   "dependencies": {
     "autoprefixer": "^7.1.2",
     "extract-text-webpack-plugin": "^1.0.1",
     "gatsby": "^1.1.0",
     "gatsby-link": "^1.6.38",
+    "gatsby-plugin-sharp": "^1.6.41",
     "gatsby-remark-autolink-headers": "^1.4.13",
+    "gatsby-remark-images": "^1.5.56",
+    "gatsby-remark-responsive-iframe": "^1.4.18",
     "gatsby-source-filesystem": "^1.5.20",
     "gatsby-transformer-remark": "^1.7.32",
     "grommet": "^1.5.0",

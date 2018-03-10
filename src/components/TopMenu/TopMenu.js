@@ -20,9 +20,9 @@ export default class TopMenu extends React.PureComponent {
             primary={false}
             size='medium'
             justify='end'
-            flex='false'
+            flex={false}
             >
-            <Anchor href='/' alignSelf='end'>
+            <Anchor href='/'>
               Home
             </Anchor>
           </Menu>

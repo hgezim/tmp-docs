@@ -8,8 +8,6 @@ export default ({data}) => {
         <Split fixed={true} flex='right' separator={true} showOnResponsive='both'>
         <Box
           pad={{vertical: 'small'}}
-          justify='left'
-          
           size='medium'
           >
           <h2>{post.frontmatter.title}</h2>
@@ -18,7 +16,6 @@ export default ({data}) => {
         <Box
           justify='center'
           align='center'
-          alignContents='center'
           pad='medium'>
           <h1>{post.frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />

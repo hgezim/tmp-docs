@@ -42,7 +42,7 @@ export default class Index extends React.Component {
 
     let chs =
       chapters.map((ch) => 
-        <Box align='center'
+        <Box
         pad='medium'
         margin='small'
         colorIndex='light-2'>
