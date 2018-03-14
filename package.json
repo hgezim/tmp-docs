@@ -12,7 +12,7 @@
     "build": "yarn run clean && gatsby build --prefix-paths",
     "clean": "git clean -xfd .cache public/",
     "serve": "yarn run clean && yarn run build --prefix-paths && gatsby serve",
-    "deploy": "rsync -vr --delete public/ ubuntu@ziprecipes.net:/home/ubuntu/zrdn/docs/"
+    "deploy": "yarn run build && rsync -vr --delete public/ ubuntu@ziprecipes.net:/home/ubuntu/zrdn/docs/"
   },
   "dependencies": {
     "autoprefixer": "^7.1.2",

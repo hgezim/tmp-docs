@@ -4,15 +4,19 @@ import Box from 'grommet/components/Box';
 
 export default ({data}) => {
     const post = data.markdownRemark;
+
+    let right = post.tableOfContents ? <Box
+    pad={{vertical: 'small'}}
+    size='medium'
+    >
+    <h2>{post.frontmatter.title}</h2>
+    <div dangerouslySetInnerHTML={{ __html: post.tableOfContents }} />
+  </Box> : '';
+
+
     let ret = 
         <Split fixed={true} flex='right' separator={true} showOnResponsive='both'>
-        <Box
-          pad={{vertical: 'small'}}
-          size='medium'
-          >
-          <h2>{post.frontmatter.title}</h2>
-          <div dangerouslySetInnerHTML={{ __html: post.tableOfContents }} />
-        </Box>
+        {right}
         <Box
           justify='center'
           align='center'
