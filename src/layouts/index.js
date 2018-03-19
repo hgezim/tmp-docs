@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import TopMenu from '../components/TopMenu'
 import Box from 'grommet/components/Box';
 import Heading from 'grommet/components/Heading';
+import Notification from 'grommet/components/Notification';
 
 // Grommet
 import App from 'grommet/components/App'

@@ -23,6 +23,9 @@ export default ({data}) => {
           pad='medium'>
           <h1>{post.frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <Box full={false} align='center'>
+            Still got unanswered questions? Email us: <a href={`mailto:hello@ziprecipes.net?subject=Question about ${post.frontmatter.title}`}>hello@ziprecipes.net</a>
+          </Box>
         </Box>
       </Split>;
   return ret;

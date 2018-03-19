@@ -62,6 +62,9 @@ export default class Index extends React.Component {
         <Columns justify="center">
           {chs}
         </Columns>
+        <Box full={false} align='center'>
+          Still got unanswered questions? Email us: <a href="mailto:hello@ziprecipes.net">hello@ziprecipes.net</a>
+        </Box>
         </div>
       );
   }

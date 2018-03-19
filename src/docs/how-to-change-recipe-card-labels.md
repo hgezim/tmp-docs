@@ -1,6 +1,6 @@
 ---
-title: Changing recipe card labels
-category: How-to
+title: Change recipe card labels
+category: How To
 chapter: 3
 lesson: 1
 ---
