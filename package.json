@@ -25,10 +25,9 @@
     "gatsby-remark-responsive-iframe": "^1.4.18",
     "gatsby-source-filesystem": "^1.5.20",
     "gatsby-transformer-remark": "^1.7.32",
-    "grommet": "^1.5.0",
-    "node-sass": "^4.5.2",
+    "grommet": "^1.11.0",
+    "node-sass": "^4.9.3",
     "prop-types": "^15.5.10",
-    "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "sass-loader": "^4.1.1"
   },
