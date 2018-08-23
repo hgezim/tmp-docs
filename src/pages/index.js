@@ -14,7 +14,7 @@ export class Topics extends React.PureComponent {
   render() {
     let topics = this.props.topics.map((topic) =>
     <li key={topic.slug}>
-      <Link
+      <Link style={{'color': 'black'}}
       to={topic.slug}
       innerRef={(el) => { this.myLink = el }}
     >{topic.title}</Link></li>);

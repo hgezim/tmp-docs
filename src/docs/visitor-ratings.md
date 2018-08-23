@@ -2,7 +2,7 @@
 title: Visitor Rating
 category: Features
 chapter: 2
-lesson: 3
+lesson: 4
 ---
 
 ![](./images/Visitor_Ratings_on_recipe.png)

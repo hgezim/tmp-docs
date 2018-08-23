@@ -2,7 +2,7 @@
 title: Saving Recipes to Pinterest, Yummly and BigOven
 category: Features
 chapter: 2
-lesson: 4
+lesson: 6
 ---
 
 ![Screenshot: Save recipe to BigOven, Yummly and Pinterest buttons](./images/Save_recipe_to_Big_Oven__Yummly_and_Pinterest.png)
