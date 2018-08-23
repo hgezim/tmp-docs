@@ -1,8 +1,8 @@
 ---
-title: Automatic Nutrtion
+title: Automatic Nutrition
 category: Features
 chapter: 2
-lesson: 2
+lesson: 3
 ---
 
 You can check this setting by going to _Settings > General_ in WordPress Admin:
@@ -40,6 +40,24 @@ Now that you’ve complete the registration process, it’s time to actually use
 8.  When users put their mouse over the nutrition label, a tooltip will show up explaining what they’re looking at. In our example, it will say `Nutrition label for Best Brownies For Mom`. This will help with Google Image ranking and your nutrition label with your blog name may appear when people search for `Nutrition label for ____:  
     ![](https://www.ziprecipes.net/wp-content/uploads/2017/05/Best_Brownies_For_Mom_–_Stage_Blog-2.png)  
     `
+
+## Guidelines
+
+ If you follow those guideline you will ensure that Zip Recipes will always correctly recognize the content of your recipe.
+
+There is really one basic rule - *if another person can understand an ingredient line you wrote without having to stop and think about what it contains*, then we will understand it correctly too.
+
+Ingredient line guidelines:
+- Always include an ingredient quantity: `3 oz butter cookies` is preferable to `butter cookies or tuiles`
+- Shorten and simplify the line: `2 cans garbanzo beans, drained` is preferable to `2-2 1/2 cans of washed and drained garbanzo beans`
+- If possible do not include more than one alternative to an ingredient in a line: `2 red or yellow peppers` is preferable to `2 red, yellow or green peppers`
+- We prefer to have only one ingredient per line although we can handle too ingredients: `2 eggs` is preferable to `2 eggs and 1 cup grated cheese`
+- If oil is used for frying, indicate so in the ingredient line (add the words `for frying`), so we can accurately calculate how much gets absorbed. Example: `1 qt olive oil for frying` or just `oil for frying`
+- For stocks and broths, include `stock` or `broth` in the recipe title, **so we can accurately calculate the remaining nutritional value once it's strained**.
+- For marinates and brining, please include at the end of each ingredient line for the marinade the words `for the marinade` or `for brining`
+- For `salt and pepper` without quantity attached we apply an algorithm which applies value for salt and pepper based on recipe weight
+- Avoid adding complicated cooking instructions within the ingredient line: `2 large carrots, sliced or chopped` is preferred to `2 large carrots, chopped for blanching in the chicken broth`
+
 
 ## Settings
 
