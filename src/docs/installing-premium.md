@@ -1,6 +1,6 @@
 ---
 title: Installing the Premium Version
-category: Setup
+category: First Steps
 chapter: 1
 lesson: 2
 ---

@@ -1,6 +1,6 @@
 ---
 title: Installing
-category: Setup
+category: First Steps
 chapter: 1
 lesson: 1
 ---
@@ -55,41 +55,18 @@ Zip Recipes Plugin is 100% compatible with ZipList Recipes Plugin. If you alread
 Just like the big recipe sites, such as AllRecipes.com and FoodNetwork.com, your recipes can also show up in the Rich Snippets format within Google Recipe Search with a photo, ingredients, cook time and ratings.
 	
 ## Special Feature #1: Add Links within Ingredients or Instructions ##
-Adding a link is easy. Whether you want to link out to Amazon to let your readers purchase ingredients or kitchen equipment, or you want to provide links to related recipes. Now you can do this from within the Ingredients, Instructions and Summary fields. Here’s what you do:
+[Click here to learn how to add links](/formatting/#adding-links).
 
-- To add linked text, include both the word or phrase to be linked and the URL within brackets with a divider in between. Example: `[margarine|http://www.parkay.com]`
-	![](http://i.imgur.com/29pPsQJ.png)
 
-	Here's how Ingredients will appear in your actual blog post:
-	
-	![](http://i.imgur.com/3yks21C.png)
-	
 ## Special Feature #2: Add Images within Recipe Instructions ##
-We know that many food bloggers like to incorporate images into their step-by-step recipe instructions (some of you also like to include images within their ingredients list). Now you can do the same with the Zip Recipes Plugin. Here’s what you do:
+[Click here to learn how to add images to your recipe](/formatting/#adding-pictures).
 
-- To add images between each recipe instruction, simply press enter after each instruction (__very important__). Then, add the image link preceded by a percentage sign. See example below.
-	![](http://i.imgur.com/UNnNWAd.png)
-	
-	Here's how images will appear between recipe instructions in your blog post.
-	![](http://i.imgur.com/ch9FwAe.png)
 	
 ## Special Feature #3: Add Labels within Recipe Instructions ##
-There are certain recipes that have a secondary recipe, like a salad and salad dressing. The Zip Recipes Plugin now enables you to create labels to let readers know which steps are for which recipe.
-
-- Simply enter your instructions for the main recipe, then start the next line with an exclamation point to create a label, like `!For the Salad Dressing`. Then, add the instructions for the secondary recipe.
-
-	![](http://i.imgur.com/gKUTlC8.png)
-
-	Here’s what your recipe will look like when you post to your blog:
-	![](http://i.imgur.com/wgA0DuL.png)
+[Click here to learn how to create multi-part recipes](/formatting/#multi-part-recipes).
 	
 ## Special Feature #4: Enhance Recipe Content with Bold and Italics ##
-The Zip Recipes Plugin now makes it possible to bold or italicize words or phrases within the Ingredients, Instructions and Summary sections. Simply type in your recipe as you normally do, but for bold, enclose the word(s) in asterisks. For italics, enclose the word(s) in underscores. See example:
-
-![](http://i.imgur.com/fxo0YM4.png)
-
-Here’s what the Ingredients section of your recipe will look like when you post to your blog:
-![](http://i.imgur.com/RAFdJWj.png)
+[Click here to learn how to format your recipe text] (/formatting/#enhance-recipe-content-with-bold-and-italics).
 
 ## Adjusting Your Settings ##
 1. From your WordPress dashboard, scroll to the very bottom of the page and click Zip Recipes Plugin on the left-hand side.

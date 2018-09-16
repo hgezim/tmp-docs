@@ -25,6 +25,12 @@ export default class TopMenu extends React.PureComponent {
             <Anchor href='/'>
               Home
             </Anchor>
+            <Anchor href='https://www.ziprecipes.net/#pricing-plans'>
+            Plans & Prices
+            </Anchor>
+            <Anchor style={{borderBottom: "2px solid black;"}} href='#'>
+            Knowledge Base
+            </Anchor>
           </Menu>
         </Header>
     )

@@ -4,6 +4,15 @@ import process from 'process'
 
 const BUILD_TIME = new Date().getTime() // eslint-disable-line no-unused-vars
 
+let stylesStr
+if (process.env.NODE_ENV === `production`) {
+  try {
+    stylesStr = require(`!raw-loader!../public/styles.css`)
+  } catch (e) {
+    console.log(e)
+  }
+}
+
 export default class HTML extends React.Component {
   static propTypes = {
     body: PropTypes.string,
@@ -14,12 +23,11 @@ export default class HTML extends React.Component {
   /* eslint-disable global-require, import/no-webpack-loader-syntax, react/no-danger */
   render() {
     let css
-    if(process.env.NODE_ENV === 'production') {
+    if (process.env.NODE_ENV === `production`) {
       css = (
         <style
-          dangerouslySetInnerHTML={{
-            __html: require('!raw!../public/styles.css'),
-          }}
+          id="gatsby-inlined-css"
+          dangerouslySetInnerHTML={{ __html: stylesStr }}
         />
       )
     }
